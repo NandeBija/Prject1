@@ -1,50 +1,90 @@
-*{
-    margin: 5px;
+* {
+  margin: 0px;
+}
+#Abt {
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747792_960_720.jpg);
 }
 
-#header{
-    width: 100%;
-    height: 80px;
-    background-color: blueviolet;
+#header {
+  width: 100%;
+  height: 80px;
+  height: 100px;
+  background: whitesmoke;
 }
-.navigation{
-    position: fixed;
-    top:1px;
-    left:0px;
-    right: 0px;             
+.fixed-top {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  width: 100%;
 }
+
 /* to let the navbar stick to the top */
 
-#Home{
-    text-align: center;
+#Home {
+  text-align: center;
 }
 
-.myName{
-    color:rgba(255, 239, 21, 0.945);
+.myName {
+  color: rgba(255, 239, 21, 0.945);
 }
 
-#About{
-    display: flex;
-    flex-direction: column;
+#About {
+  display: flex;
+  flex-direction: column;
 }
 
-img{
-    width: 300px;
-    height: 350px;
-    
+img {
+  width: 300px;
+  height: 350px;
 }
-#h1{
-    padding-left: 10px;
-    border-left-width: 5px;
-    border-left-style: solid; 
-    border-left-color: rgba(255, 239, 21, 0.945) ;
-    text-align: start;
-}
-
-.landing{
-    height: 300px;
+#h1 {
+  padding-left: 10px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: rgba(255, 239, 21, 0.945);
+  text-align: start;
 }
 
-.col:nth-child(2){
-    justify-items:start;
+.landing {
+  height: 100vh;
+  padding-top: 150px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.24),
+      rgba(109, 19, 117, 0.616)
+    ),
+    url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.nav-item {
+  display: inline-flex;
+  width: max-content;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  height: 150px;
+}
+
+.row {
+  padding-bottom: 0%;
+}
+
+.row1 {
+  display: inline-block;
+}
+
+.carousel-item {
+  position: relative;
+  left: 450px;
+}
+
+.carousel-caption {
+  margin-right: 880px;
 }

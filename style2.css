@@ -1,0 +1,18 @@
+
+
+#educ{
+    display:flex;
+    min-height:100vh
+  }
+
+.landing-left{
+    width: 10%;
+    height:120px;
+}
+
+.landing-right{
+    padding: 50px;
+    width: fit-content;
+    justify-content: start;
+    
+}
