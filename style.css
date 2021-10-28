@@ -1,15 +1,25 @@
 * {
   margin: 0px;
+  font-family: "Raleway", sans-serif;
 }
 #Abt {
-  background-image: url(https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747792_960_720.jpg);
+  /* background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.24),
+      rgba(38, 38, 43, 0.966)
+    ),
+    url(https://t3.ftcdn.net/jpg/03/69/32/88/360_F_369328819_9GthHbO3zN8eej5HUpVgLsDogUzfPuEO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: #ffffff;
 }
 
 #header {
   width: 100%;
   height: 80px;
-  height: 100px;
-  background: whitesmoke;
+  height: 110px;
+  background: rgba(102, 99, 99, 0.966);
+  opacity: ;
 }
 .fixed-top {
   position: fixed;
@@ -26,7 +36,7 @@
 }
 
 .myName {
-  color: rgba(255, 239, 21, 0.945);
+  color: rgba(243, 243, 243, 0.945);
 }
 
 #About {
@@ -52,12 +62,13 @@ img {
   background-image: linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.24),
-      rgba(109, 19, 117, 0.616)
+      rgba(38, 38, 43, 0.966)
     ),
-    url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    url("https://wallpapercave.com/wp/wp1923701.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: rgba(204, 213, 174);
 }
 .nav-item {
   display: inline-flex;
@@ -78,13 +89,4 @@ img {
 
 .row1 {
   display: inline-block;
-}
-
-.carousel-item {
-  position: relative;
-  left: 450px;
-}
-
-.carousel-caption {
-  margin-right: 880px;
 }
