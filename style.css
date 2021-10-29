@@ -17,31 +17,188 @@
 #header {
   width: 100%;
   height: 80px;
-  height: 110px;
-  background: rgba(102, 99, 99, 0.966);
-  opacity: ;
-}
-.fixed-top {
-  position: fixed;
-  top: 0%;
-  right: 0%;
-  left: 0%;
-  width: 100%;
+  /* color: whitesmoke; */
 }
 
-/* to let the navbar stick to the top */
+.navbar {
+  background: #040404;
+  height: 100px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: lightgray;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin-right: 120px;
+}
+
+.nav-item {
+  display: inline-flex;
+  width: max-content;
+}
+
+.landing {
+  height: 100vh;
+  padding-top: 150px;
+  background-image: url("headerImg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgba(204, 213, 174);
+}
+
+.headerText {
+  padding-top: 90px;
+}
+
+.helloText {
+  font-size: 2.5em;
+  color: #ffa500b8;
+}
+.headerContent {
+  font-size: 2.5em;
+  color: #ffa500b8;
+}
+
+.myName {
+  font-size: 6.5em;
+  color: #ffa500b8;
+}
+.tcontainer {
+  padding-right: 50%;
+}
+
+#About {
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  height: 50vh;
+  padding-top: 20px;
+}
+
+.aboutImg {
+  background-image: url("https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/120167338_1419540958256494_1429266948192051720_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGSa-KmBQAjTRdr56F8-KZ8dneniD-tjP52d6eIP62M_r-EhX88OVSz4GhPiij1-JIdbxihexu_FMBmw4pLS3x2&_nc_ohc=CUmcTQCCCtgAX_c7zeu&_nc_ht=scontent-cpt1-1.xx&oh=7dd626e3c4218c28455b4c0adf17a245&oe=619C60E4");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.aboutContent {
+  padding-right: 30px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: justify;
+  /* margin: 0px 40px 0px 0px; */
+}
+
+#works {
+  background-color: #040404;
+  color: white;
+  text-align: center;
+  padding-right: 20%;
+}
+
+#skills {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  height: 30vh;
+  padding-top: 30px;
+}
+
+.skillsGrid img {
+  max-width: 20%;
+  max-height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Testimonials {
+  background-color: #040404;
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+}
+
+.carousel-indicators button {
+  color: whitesmoke;
+  background-color: whitesmoke;
+}
+
+.carouselImg {
+  position: relative;
+  left: 35%;
+  height: 60vh;
+  width: 40vw;
+}
+
+.image1 {
+  background-image: url("emma.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.image2 {
+  background-image: url("nande.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.image3 {
+  background-image: url("Godwin.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.image4 {
+  background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.carousel-caption {
+  display: block;
+  background-color: #ffa500b8;
+}
+
+#Contact {
+  background-color: #040404;
+  color: whitesmoke;
+}
 
 #Home {
   text-align: center;
 }
 
-.myName {
-  color: rgba(243, 243, 243, 0.945);
-}
-
 #About {
   display: flex;
   flex-direction: column;
+  padding-right: 10%;
 }
 
 img {
@@ -50,37 +207,24 @@ img {
 }
 #h1 {
   padding-left: 10px;
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-left-color: rgba(255, 239, 21, 0.945);
-  text-align: start;
 }
 
-.landing {
-  height: 100vh;
-  padding-top: 150px;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.24),
-      rgba(38, 38, 43, 0.966)
-    ),
-    url("https://wallpapercave.com/wp/wp1923701.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: rgba(204, 213, 174);
-}
-.nav-item {
-  display: inline-flex;
-  width: max-content;
+footer {
+  background-color: red;
+  color: whitesmoke;
+  /* height: 50vh; */
+  text-align: center;
 }
 
-.navbar {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: 100;
-  height: 150px;
+footer p {
+  padding-top: 50px;
+}
+
+footer img {
+  max-width: 34px;
+  max-height: 49px;
+  padding: 5px;
+  margin: 3px;
 }
 
 .row {
@@ -89,4 +233,129 @@ img {
 
 .row1 {
   display: inline-block;
+}
+
+.card-body img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 360px) {
+  .landing {
+    background-color: lightblue;
+  }
+  .aboutContent {
+    overflow: hidden;
+    width: fit-content;
+    width: auto;
+    font-size-adjust: ic-height;
+    font-size: xx-small;
+  }
+  .aboutImg {
+    display: none;
+  }
+
+  /* #works {
+    width: 50%;
+  } */
+
+  .tcontainer {
+    width: 80%;
+    position: relative;
+  }
+  .gridContainer {
+    height: 50vh;
+    padding-top: 20px;
+    display: flex;
+    padding-left: 20%;
+  }
+  #About {
+    text-align: center;
+    padding: none;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    bottom: 230px;
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.tcontainer {
+  position: relative;
+  left: 50%;
+  padding: 10px 10px 10px 50px;
+  max-width: 400px;
+  height: auto;
+  height: 50%;
+  }
+
+.headerText h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+.card {
+  padding: 50px;
+
+  transition: transform 0.2s; /* Animation */
+
+  margin: 0 auto;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  40% {
+    border-color: orange;
+  }
 }
