@@ -15,49 +15,43 @@
 
 <body>
   <header id="header" class="shadow-lg">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
+      <div class="container-fluid h3">
         <a class="navbar-brand" href="#">Nande Bija</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-fixed-top">
+        <ul class="navbar-nav px-1 h5;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#works">Work and Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#proj">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+          </li>
+        </ul>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-
-        <div class="collapse navbar-collapse navbar-fixed-top" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Abt">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#work">Work and Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Testimonial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
-            </li>
-          </ul>
-  
-        </div>
+      </div>
       </div>
     </nav>
-
   </header>
 
   <!-- Home section -->
   <section class="landing" id="Home">
+    <div class="container">
     <div class="headerText">
       <p class="helloText"><strong>Hello,</strong></p><br>
         <h1 class="myName">
@@ -66,33 +60,46 @@
         <br>
       <p class="headerContent"><strong>I am an aspiring web developer.</strong></p>
     </div>
+  </div>
   </section>
 
   <!-- About section -->
 
   <section id="About">
+    <div class="container">
     <h1>About</h1>
     <div class="gridContainer">
       <div class="aboutImg"></div>
       <div class="aboutContent">
-        <p>I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout
-          and programming to UX. I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout
-          and programming to UX.</p>
-        <p>I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout
-          and programming to UX. I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout
-          and programming to UX.</p>
-          <p>I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout
-            and programming to UX. I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout
-            and programming to UX.</p>
+        <p><strong>Bio:</strong><br>
+          I am a positive, enthusiastic individual who is always eager to take on new challenges. <br>I can be a bit shy and nervous around new people but warm up as soon as I read the energy in the room.<br>
+          
+          <strong>Where did your passion for coding start:</strong><br>
+          I fell in love with the tech industry as soon as I had access to free Wi-Fi at University in 2017, <br>but only had the chance to venture into the industry recently. The tech industry is the future, and the future is now.</p>
+          <p><strong>Passion Board:</strong><br>
+            Watching series and documentaries [Genre: Science fiction; Thriller; Comedy] </p>
+          <p><strong>Soft Skills:</strong><br>
+          Strong verbal and written communication skills, 
+          strategic planning, 
+          time management skills. </p>
+          <p><strong>Technical Skills:
+            Computer-literate;</strong><br>
+            Data collection, 
+            capturing and processing; 
+            Computer software [ArcGIS, QGIS, MS Excel, MS Word]</p>
+          
       </div>
     </div>
-  </section>
+  </div>
+  </section><hr style="color: orange; margin-left: 10%; margin-right: 10%;">
 
 
   <!-- Work and Education -->
 
   <section id="works">
-    <h1>Work Experience</h1>
+    <div class="container">
+    <!-- <h1 style=" padding-left: 10px; text-align: center;">Work & Education</h1> -->
+    <h1 style="padding-top: 3%; padding-bottom: 4%;">Work Experience</h1>
     <!-- work section... styles are in style3.css -->
     <div class="tcontainer">
       <div class="event">
@@ -109,8 +116,7 @@
         </p>
       </div>
     </div>
-  </section>
-  <section>
+  
     <div id="education">
       <h1>Education</h1>
       <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
@@ -142,12 +148,15 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
+    
+  </section><hr style="color: orange; margin-left: 10%; margin-right: 10%;">
 
   <!-- Testimonials section -->
 
   <section id="Testimonials">
-    <container>
+    <div class="container">
       <h1>Testimonials</h1>
       <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
         <div class="carousel-indicators">
@@ -158,35 +167,45 @@
   </div>
 
         <div class="carousel-inner">
+          <div id="carou">
           <div class="carousel-item active">
               <div class="carouselImg image1"></div>
             <div class="carousel-caption d-sm-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Emanuel</h5>
+              <p>Nande comes across as a very positive individual who is always up ffor <br> a challenge. I have witnessed him show rapid growth in his coding since>br> we started at LIfeCHoices Academy<br>Emanuel Fente~ classmate</p>
             </div>
           </div>
           <div class="carousel-item">
-              <div class="carouselImg image2"></div>
-            <div class="carousel-caption d-sm-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+            <div class="carouselImg image2"></div>
+          <div class="carousel-caption d-sm-block">
+            <h5>Siyanda</h5>
+              <p>Nande is a very professional, hard-working and a talented<br> developer. <br>He would be a great asset and definitely has a bright future in this industry.<br>Siyanda Ncamazana~Classmate</p>
             </div>
           </div>
+  
           <div class="carousel-item">
-              <div class="carouselImg image3"></div>
+              <div class="carouselImg image3" style="height: 500px;"></div>
             <div class="carousel-caption d-sm-block">
-              <h5>Godwin Dzapatsva</h5>
-              <p>I have no hesitancy in writing a letter of recommendation for Nande.<br>Godwin-Head of Curriculum and
+              <h5>Godwin </h5>
+              <p>I have no hesitancy in writing a letter of recommendation for Nande.<br>~Godwin Dzapatsva: Head of Curriculum and
                 Learning</p>
             </div>
           </div>
           <div class="carousel-item">
               <div class="carouselImg image4"></div>
             <div class="carousel-caption d-sm-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>chad</h5>
+              <p>Nande is a positive individual who is alwayslooking up to a new challenge. <br> He is fun to work with.<br>Chad Hendricks~Classmate</p>
             </div>
           </div>
+
+           <div class="carousel-item">
+              <div class="carouselImg image3" style="height: 500px;"></div>
+            <div class="carousel-caption d-sm-block">
+              <h5>Godwin </h5>
+              <p>I have no hesitancy in writing a letter of recommendation for Nande.<br>~Godwin Dzapatsva: Head of Curriculum and
+                Learning</p>
+            </div>
 
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -198,12 +217,13 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+    </div>
+  </section><hr style="color: orange; margin-left: 10%; margin-right: 10%;">
 
-    </container>
-  </section>
-
-  
+  <!-- skills section -->
   <section id="skills">
+    <div class="container">
     <h1>Skills</h1>
     <div class="skillsGrid">
       <img src="html5.png" alt="HTML">
@@ -211,7 +231,9 @@
       <img src="bootstrap.png" alt="bootstrap">
       <img src="javascript.png" alt="Javascript">
     </div>
-  </section>
+  </section><hr style="color: orange; margin-left: 10%; margin-right: 10%;">
+
+
 
   <!-- contact section -->
   <section id="Contact">
@@ -271,32 +293,35 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
+  </section><hr style="color: orange; margin-left: 10%; margin-right: 10%;">
 
 
   <!-- Projects section -->
-  <section style="background-color: #f7f7f7;;">
-    <container>
+  <section style="background-color: #f7f7f7;;"  id="proj">
+    <div class="container">
       <h1 class="h1" style="padding-bottom:40px;padding-top: 30px; text-align: center;">Projects</h1>
       <!-- first row -->
-      <div class="row" style="padding-left:15%; padding-bottom: 20px;">
+      <div class="row" style="padding-left:5%; padding-bottom: 20px;">
         <div class="col-6">
-          <div class="card border-warning " style="max-width: 30rem;">
-            <div class="card-header">Timeline project</div>
-            <div class="card-body text-primary">
-              <img src="timeline.png" alt="timeline">
-              <p><a href="https://github.com/NandeBija/timeline.git">Github link</a></p>
+          <div class="card border-warning mb-3 shadow-lg" style="width: 60%;">
+            <div class="card-header">Flip-cards project</div>
+            <div class="card-body text-warnin">
+              
+              <img src="cards.png" alt="flipcard project">
+              <p><a href="https://github.com/NandeBija/flip_cards.git">Github link</a></p>
+
             </div>
           </div>
         </div>
 
         <div class="col-6">
-          <div class="card border-warning " style="max-width: 30rem;">
-            <div class="card-header">Multipage website</div>
+          <div class="card border-warning mb-3 shadow-lg"  style="width: 60%;">
+            <div class="card-header">Timeline project</div>
             <div class="card-body text-primary">
-              <img src="multipagesite.png" alt="multipage">
-              <p><a href="https://github.com/NandeBija/First_multiple_file_form.git">Github link</a></p>
               
+              <img src="time.png" alt="timeline project">
+              <p><a href="https://github.com/NandeBija/timeline.git">Github link</a></p>
             </div>
           </div>
         </div>
@@ -304,36 +329,49 @@
 
       <!-- second row -->
 
-      <div class="row" style="padding-left:15%; padding-bottom: 20px;">
+      <div class="row" style="padding-left:5%; padding-bottom: 20px;">
 
-        <div class="col text-center" style=" padding-left: 10%;">
-          <div class="card border-warning " style="max-width: 80%;">
-            <div class="card-header">Header</div>
+        <div class="col">
+          <div class="card border-warning mb-3 shadow-lg"  style="width: 60%;">
+            <div class="card-header">Cards project</div>
             <div class="card-body text-info">
-              <img src="flipcard.png" alt="flipcard">
-              <p><a href="https://github.com/NandeBija/flip_cards.git">Github link</a></p>
-             
+              
+              <img src="cards2.png" alt="2nd card project">
+              <p><a href="https://github.com/NandeBija/Prac3_Cardss.git">Github link</a></p>
             </div>
           </div>
         </div>
 
+        <div class="col">
+          <div class="card border-warning mb-3 shadow-lg"  style="width: 60%;">
+            <div class="card-header">CSS Animation</div>
+            <div class="card-body text-info">
+              
+              <img src="animation.png" alt="animation">
+              <p><a href="https://github.com/NandeBija/first_portfolio.git">Github link</a></p>
+            </div>
+          </div>
+        </div>
       </div>
-    </container>
+    </div>
   </section>
 
 
+  <!-- footer -->
+<section>
+  <footer>
+      <p>Copyright © 2021. All rights reserved Designed By <span>Nande Bija</span></p>
+      <div class="social d-flex" style="height: 20px;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-github"></a>
+        </div>  
+  </footer>
+  
+</section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-    <!-- footer -->
-<footer>
-  <p>Copyright © 2021. All rights reserved Designed By <span>Nande Bija</span></p>
-  <div class="social d-flex" style="height: 20px;">
-    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
-    <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
-    <a href="https://github.com/NandeBija/Prject1.git" class="fa fa-github"></a>
-    </div>  
-</footer>
 </body>
 </html>
